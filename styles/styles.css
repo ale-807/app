@@ -4,7 +4,7 @@
 
 .logos {
     display: flex;
-    background-color: rgba(27, 26, 26, 0.326);
+    background-color: rgb(95, 102, 124);
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -24,3 +24,165 @@
     margin-right: 60px;
     margin-top: 30px;
 }
+
+/*segunda parte*/
+
+.con {
+    display: flex;
+    background-color: rgb(95, 102, 124);
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.con imagen2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-top: 90px;
+}
+
+.con h1 {
+    width: 100px;
+    font-size: 30px;
+}
+
+.con p {
+    font-size: 7px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.con h3 {
+    width: 100px;
+    font-size: 10px; 
+}
+
+.con button {
+    margin-top: -70px;
+}
+
+.franja img{
+     overflow: hidden;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.franja {
+     overflow: hidden;
+    display: flex;
+    background-color: rgb(240, 240, 239);
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.enga {
+     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.en h1 {
+    width: 100px;
+    font-size: 50px;
+}
+
+.en p {
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.en h3 {
+    width: 100px;
+    font-size: 20px; 
+}
+
+.en button {
+    margin-top: 15px;
+}
+
+.on h1 {
+    width: 100px;
+    font-size: 50px;
+}
+
+.on p {
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.on h3 {
+    width: 100px;
+    font-size: 20px; 
+}
+
+.on button {
+    margin-top: 15px;
+}
+
+.in h1 {
+    width: 100px;
+    font-size: 50px;
+}
+
+.in p {
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.in h3 {
+    width: 100px;
+    font-size: 20px; 
+}
+
+.in button {
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+  /////////////////////////////////////////////////
+  body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .title .dot {
+        width: 12px;
+        height: 12px;
+        background-color: #8cc63f; /* verde */
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .projects {
+        display: flex;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 700px;
+        height: 600px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+        
+    }
+
+    .project-card img {
+        width: 100%;
+        height: 100%;
+       justify-content: center; 
+    }
